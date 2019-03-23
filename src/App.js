@@ -5,22 +5,19 @@ import './App.css';
 class App extends Component {
   render() {
     return (
-      <div className="App">
-        <header className="App-header">
-          <img src={logo} className="App-logo" alt="logo" />
-          <p>
-            Edit <code>src/App.js</code> and save to reload.
-          </p>
-          <a
-            className="App-link"
-            href="https://reactjs.org"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Learn React
-          </a>
-        </header>
-      </div>
+        <body>
+            <h2>Fixed/Sticky Footer Example</h2>
+            <p>The footer is placed at the bottom of the page.</p>
+            <div class="footer">
+                <a href="#news">News</a>
+                <a href="#news">News</a>
+                <a href="#news">News</a>
+                <a href="#news">News</a>
+                <a href="#news">News</a>
+                <input type="text"></input>
+                <input type="button" value="search" />
+            </div>
+        </body>
     );
   }
 }
